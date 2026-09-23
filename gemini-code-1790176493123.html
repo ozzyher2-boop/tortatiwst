@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Torta Twist - Experience A Flavor Revolution</title>
+  <!-- Google Fonts for styled headers -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Reset & Base Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff9d2e 0%, #ff6b35 50%, #f7c025 100%);
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Header Banner */
+    header {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .brand-title {
+      font-family: 'Fredoka', cursive;
+      font-size: 3.8rem;
+      color: #ffe600;
+      text-shadow: 4px 4px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .brand-subtitle {
+      font-family: 'Fredoka', cursive;
+      font-size: 2.2rem;
+      color: #52c2a0;
+      text-shadow: 3px 3px 0px #000, -1px -1px 0px #000;
+      margin-top: -5px;
+      text-transform: uppercase;
+    }
+
+    .slogan-banner {
+      background-color: #ffe600;
+      border: 3px solid #000;
+      border-radius: 30px;
+      padding: 10px 20px;
+      display: inline-block;
+      margin-top: 20px;
+      box-shadow: 4px 4px 0px #000;
+    }
+
+    .slogan-banner h2 {
+      font-family: 'Fredoka', cursive;
+      font-size: 1.4rem;
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Main Menu Card */
+    .menu-card {
+      background: linear-gradient(180deg, #42f5e6 0%, #a2f542 50%, #fdfa53 100%);
+      border: 5px solid #000;
+      box-shadow: 10px 10px 0px #000;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 40px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 25px;
+      padding-bottom: 20px;
+      border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .item-info {
+      flex: 1;
+      padding-right: 15px;
+    }
+
+    .item-title {
+      font-family: 'Fredoka', cursive;
+      font-size: 2rem;
+      color: #000;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    .item-description {
+      font-size: 0.95rem;
+      color: #222;
+      line-height: 1.4;
+      font-weight: 500;
+    }
+
+    .item-price {
+      font-family: 'Fredoka', cursive;
+      font-size: 2rem;
+      color: #000;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .price-subtext {
+      font-size: 0.9rem;
+      display: block;
+      line-height: 1;
+    }
+
+    /* Sub-list for soda */
+    .soda-list {
+      list-style-type: none;
+      margin-top: 5px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    /* Footer Tagline */
+    .footer-tagline {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .footer-tagline h3 {
+      font-family: 'Fredoka', cursive;
+      font-size: 2rem;
+      color: #000;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .brand-title { font-size: 2.8rem; }
+      .brand-subtitle { font-size: 1.6rem; }
+      .slogan-banner h2 { font-size: 1.1rem; }
+      .menu-item { flex-direction: column; }
+      .item-price { text-align: left; margin-top: 8px; }
+      .footer-tagline h3 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header Section -->
+    <header>
+      <h1 class="brand-title">TORTA</h1>
+      <h2 class="brand-subtitle">TWIST</h2>
+      
+      <div class="slogan-banner">
+        <h2>EXPERIENCE A FLAVOR REVOLUTION</h2>
+      </div>
+    </header>
+
+    <!-- Menu Container -->
+    <div class="menu-card">
+      
+      <!-- Combo Item -->
+      <div class="menu-item">
+        <div class="item-info">
+          <h3 class="item-title">COMBO</h3>
+          <p class="item-description">
+            La torta combo comes with one torta and whatever kind of Milnesas you prefer (chicken or pork option). Served with fries and a soda of your choice.
+          </p>
+        </div>
+        <div class="item-price">$16</div>
+      </div>
+
+      <!-- Torta Item -->
+      <div class="menu-item">
+        <div class="item-info">
+          <h3 class="item-title">TORTA</h3>
+          <p class="item-description">
+            Offers only the torta with your choice of meats (chicken or pork). Includes any kind of soda you would like.
+          </p>
+        </div>
+        <div class="item-price">$10</div>
+      </div>
+
+      <!-- Tamales Item -->
+      <div class="menu-item">
+        <div class="item-info">
+          <h3 class="item-title">TAMALES</h3>
+          <p class="item-description">
+            We have rajas, mole rojo, and mole verde available. <em>(Does not come with soda)</em>.
+          </p>
+        </div>
+        <div class="item-price">
+          $3
+          <span class="price-subtext">PER ORDER</span>
+        </div>
+      </div>
+
+      <!-- Soda Item -->
+      <div class="menu-item">
+        <div class="item-info">
+          <h3 class="item-title">SODA</h3>
+          <ul class="soda-list">
+            <li>• Coca-Cola: $1 (can)</li>
+            <li>• Sprite: $2 (bottle)</li>
+            <li>• Pepsi: $1 (can)</li>
+          </ul>
+        </div>
+        <div class="item-price">$1 - $2</div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Slogan -->
+    <div class="footer-tagline">
+      <h3>EXPERIENCE A FLAVOR REVOLUTION AT TORTA TWIST!</h3>
+    </div>
+  </div>
+
+</body>
+</html>
